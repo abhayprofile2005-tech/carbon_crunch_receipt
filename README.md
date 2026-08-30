@@ -8,22 +8,18 @@ shortlisting assignment.
 ## Project Structure
 
 ```
-carbon_crunch_ocr/
+carbon_crunch_receipt/
 ├── main.py                    # CLI entry point
 ├── requirements.txt
-├── src/
-│   ├── preprocessing.py       # denoise, deskew, contrast/lighting correction
-│   ├── ocr_engine.py          # Tesseract wrapper -> words/lines + confidence
-│   ├── field_extraction.py    # store name / date / items / total heuristics
-│   ├── confidence_scoring.py  # combines OCR conf + pattern + heuristic signals
-│   ├── financial_summary.py   # aggregate spend across receipts
-│   └── pipeline.py            # orchestrates one receipt end-to-end
-├── sample_data/                # example receipt images (synthetic, see docs)
-├── outputs/
-│   ├── json/                  # one JSON file per processed receipt
-│   └── summary.json           # aggregate expense summary
-└── docs/
-    └── DOCUMENTATION.md       # approach, tools, challenges, improvements
+├── preprocessing.py           # denoise, deskew, contrast/lighting correction
+├── ocr_engine.py               # Tesseract wrapper -> words/lines + confidence
+├── field_extraction.py         # store name / date / items / total heuristics
+├── confidence_scoring.py       # combines OCR conf + pattern + heuristic signals
+├── financial_summary.py        # aggregate spend across receipts
+├── pipeline.py                 # orchestrates one receipt end-to-end
+├── DOCUMENTATION.md            # approach, tools, challenges, improvements
+├── receipt_01-04.png/json      # sample synthetic receipts + outputs
+└── summary.json                # aggregate expense summary
 ```
 
 ## Setup
