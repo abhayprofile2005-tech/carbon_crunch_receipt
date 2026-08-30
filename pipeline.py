@@ -25,7 +25,7 @@ confidence attached to each field):
 from dataclasses import asdict
 from typing import Optional
 
-from . import preprocessing, ocr_engine, field_extraction, confidence_scoring
+import preprocessing, ocr_engine, field_extraction, confidence_scoring
 
 
 def process_receipt(image_path: str) -> dict:
