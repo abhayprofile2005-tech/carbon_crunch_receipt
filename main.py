@@ -20,8 +20,8 @@ from dataclasses import asdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from src.pipeline import process_receipt
-from src.financial_summary import build_summary
+from pipeline import process_receipt
+from financial_summary import build_summary
 
 VALID_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
 
