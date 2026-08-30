@@ -1,0 +1,50 @@
+{
+  "source_file": "sample_data/receipt_02.png",
+  "store_name": {
+    "value": "URBAN COFFEE CO.",
+    "confidence": 0.817,
+    "low_confidence": false
+  },
+  "date": {
+    "value": "2024-05-02",
+    "confidence": 0.978,
+    "low_confidence": false
+  },
+  "items": [
+    {
+      "name": "Cappuccino Large",
+      "price": "4.50",
+      "confidence": 0.875,
+      "low_confidence": false
+    },
+    {
+      "name": "Blueberry Muffin",
+      "price": "3.00",
+      "confidence": 0.873,
+      "low_confidence": false
+    },
+    {
+      "name": "Espresso Shot",
+      "price": "2.25",
+      "confidence": 0.878,
+      "low_confidence": false
+    },
+    {
+      "name": "Subtotat",
+      "price": "9.75",
+      "confidence": 0.858,
+      "low_confidence": false
+    }
+  ],
+  "total_amount": {
+    "value": "10.43",
+    "confidence": 0.97,
+    "low_confidence": false
+  },
+  "ocr_avg_confidence": 78.29,
+  "processing_notes": [
+    "Corrected skew of 1.8 degrees.",
+    "High source-image noise detected (score=50.0); results may be less reliable."
+  ],
+  "status": "ok"
+}

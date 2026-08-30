@@ -1,0 +1,10 @@
+opencv-python-headless>=4.8
+pytesseract>=0.3.10
+numpy>=1.24
+Pillow>=10.0
+
+# System dependency (not installable via pip):
+#   Tesseract OCR engine must be installed separately, e.g.:
+#     Ubuntu/Debian: sudo apt-get install tesseract-ocr
+#     macOS:         brew install tesseract
+#     Windows:       https://github.com/UB-Mannheim/tesseract/wiki

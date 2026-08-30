@@ -1,0 +1,13 @@
+{
+  "total_spend": 53.45,
+  "num_transactions": 4,
+  "num_receipts_processed": 4,
+  "num_receipts_with_valid_total": 4,
+  "spend_per_store": {
+    "GREEN LEAF GROCERY": 12.63,
+    "URBAN COFFEE CO.": 10.43,
+    "QUICKMART SUPERSTORE": 28.79,
+    "CORNER DINER": 1.6
+  },
+  "flagged_receipts": []
+}

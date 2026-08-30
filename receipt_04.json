@@ -1,0 +1,32 @@
+{
+  "source_file": "sample_data/receipt_04.png",
+  "store_name": {
+    "value": "CORNER DINER",
+    "confidence": 0.88,
+    "low_confidence": false
+  },
+  "date": {
+    "value": "9/1/24",
+    "confidence": 0.968,
+    "low_confidence": false
+  },
+  "items": [
+    {
+      "name": "Coffee",
+      "price": "1.50",
+      "confidence": 0.782,
+      "low_confidence": false
+    }
+  ],
+  "total_amount": {
+    "value": "1.60",
+    "confidence": 0.975,
+    "low_confidence": false
+  },
+  "ocr_avg_confidence": 52.85,
+  "processing_notes": [
+    "Corrected skew of -2.7 degrees.",
+    "High source-image noise detected (score=33.7); results may be less reliable."
+  ],
+  "status": "ok"
+}

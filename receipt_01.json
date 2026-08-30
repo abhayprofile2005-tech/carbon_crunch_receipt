@@ -1,0 +1,50 @@
+{
+  "source_file": "sample_data/receipt_01.png",
+  "store_name": {
+    "value": "GREEN LEAF GROCERY",
+    "confidence": 0.878,
+    "low_confidence": false
+  },
+  "date": {
+    "value": "14/03/2024",
+    "confidence": 0.97,
+    "low_confidence": false
+  },
+  "items": [
+    {
+      "name": "Organic Bananas",
+      "price": "2.49",
+      "confidence": 0.878,
+      "low_confidence": false
+    },
+    {
+      "name": "Whole Milk 1L",
+      "price": "1.89",
+      "confidence": 0.824,
+      "low_confidence": false
+    },
+    {
+      "name": "Brown Bread",
+      "price": "3.20",
+      "confidence": 0.87,
+      "low_confidence": false
+    },
+    {
+      "name": "Free Range Eaqqs",
+      "price": "4.10",
+      "confidence": 0.845,
+      "low_confidence": false
+    }
+  ],
+  "total_amount": {
+    "value": "12.63",
+    "confidence": 0.968,
+    "low_confidence": false
+  },
+  "ocr_avg_confidence": 84.03,
+  "processing_notes": [
+    "Corrected skew of -3.6 degrees.",
+    "High source-image noise detected (score=28.3); results may be less reliable."
+  ],
+  "status": "ok"
+}

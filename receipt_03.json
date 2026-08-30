@@ -1,0 +1,56 @@
+{
+  "source_file": "sample_data/receipt_03.png",
+  "store_name": {
+    "value": "QUICKMART SUPERSTORE",
+    "confidence": 0.82,
+    "low_confidence": false
+  },
+  "date": {
+    "value": "22 Jun 2024",
+    "confidence": 0.978,
+    "low_confidence": false
+  },
+  "items": [
+    {
+      "name": "AA Batteries 4pk",
+      "price": "6.99",
+      "confidence": 0.775,
+      "low_confidence": false
+    },
+    {
+      "name": "Notebook A5",
+      "price": "2.49",
+      "confidence": 0.7,
+      "low_confidence": false
+    },
+    {
+      "name": "USB Cahte im",
+      "price": "5.99",
+      "confidence": 0.83,
+      "low_confidence": false
+    },
+    {
+      "name": "Hand Sanitizer",
+      "price": "3.49",
+      "confidence": 0.878,
+      "low_confidence": false
+    },
+    {
+      "name": "Printer Paper",
+      "price": "7.99",
+      "confidence": 0.878,
+      "low_confidence": false
+    }
+  ],
+  "total_amount": {
+    "value": "28.79",
+    "confidence": 0.978,
+    "low_confidence": false
+  },
+  "ocr_avg_confidence": 78.32,
+  "processing_notes": [
+    "Corrected skew of 4.4 degrees.",
+    "High source-image noise detected (score=28.0); results may be less reliable."
+  ],
+  "status": "ok"
+}
