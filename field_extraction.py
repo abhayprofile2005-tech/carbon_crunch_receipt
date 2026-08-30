@@ -14,7 +14,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Optional
 
-from .ocr_engine import Line
+from ocr_engine import Line
 
 # ---------------------------------------------------------------------------
 # Shared patterns
